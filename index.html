@@ -2,101 +2,401 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Saakshi Gundecha</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
-	<link rel="stylesheet" type="text/css" href="assets/style.css">	
+  <meta charset="utf-8">
+  <title>Saakshi Gundecha's Profile Page</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+
+
 </head>
-	
+
 <body>
 
-		<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #4aaaa5;">
-				<div class="container">
-				  <a class="navbar-brand" href="#">Saakshi Gundecha</a>
-				</div>
-				<ul class="nav navbar-nav navbar-right" id=nav>
-						<li><a href="index.html">About</a></li>
-						<br>
-						<li class="active"><a href="portfolio.html">   Portfolio</a></li>
-						<br>
-						<li><a href="contact.html">  Contact</a></li>
-					</ul>
-			  </nav>
+  <header id="header">
+    <div class="container-fluid">
 
-			  <div class="container">
-					<div class="row">
-					  <div class="col-lg-12">
-						<div class="card">
-						  <div class="card-body card-light">
-							About: 
-						  </div>
-						</div>
-					  </div>
-					</div>
-					<div class="row">
-					  <div class="col-lg-3">
-						<img class="img img-thumbnail" src="assets/Screenshot 2019-06-19 at 1.39.15 AM.png">
-					  </div>
-					  <div class="col-lg-9">
-						  <h2>Saakshi Gundecha's background</h2>
-						  <br>
-						  <br>
-						  <br>
-						<p>Saakshi Gundecha is an Indian Singaporean who is currently studying at Penn State main campus 
-								in Pennsylvania, United States. She has lived in Singapore most of my like and is now here
-								in the United States just for higher education and to potentially get a job in web 
-								designing. She is currently majoring in Economics and Information Sciences 
-								and Technology with a focus on Design and Development. She has had some previous experience
-								in this work through my intership in Digital Marketing at Ezbuy, Singapore and hopes to get many more.</p>
-					  </div>
-					</div>
-					<br>
-	
-	
-	
-			  
-			
-			<div class="col-md-1">
-			</div>
-			
-			<div class="col-md-3">
-					<div class="panel panel-primary" id="sidebar">
-								
-						<div class="panel-heading">
-							<h3 class="panel-title">Connect</h3>
-						</div>
-								
-						<div class="panel-body">
-							<div class="row">
-								<div class="col-md-4">
-									<a href="" target="_blank" class="thumbnail">
-									<img src="assets/github-128.png" alt="GitHub" class="img-responsive social"></a>
-								</div>
-							
-								<div class="col-md-4">
-									<a href="" target="_blank" class="thumbnail"><img src="assets/linkedin-128.png" alt="LinkedIn" class="img-responsive social"></a>
-								</div>
-							
-								<div class="col-md-4">
-									<a href="" target="_blank" class="thumbnail"><img src="assets/stackoverflow-128.png" alt="stackoverflow" class="img-responsive social"></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+      <div id="logo" class="pull-left">
+        <h1><a href="#intro" class="scrollto">Saakshi Gundecha</a></h1>
+      </div>
 
-			<div class="col-md-1">
-			</div>
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-		</div>
-	</div>
-			
-	<footer class="footer">
-		<div class="container" id="footer-text">
-			<p class="text-muted">Copyright &reg; 2019 Saakshi Gundecha</p>
-		</div>
-	</footer>
+
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators"></ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2>Saakshi Gundecha</h2>
+                <p>Page to present all coding projects.</p>
+                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<br> 
+<br>
+  <main id="main">
+    <div class="container">
+
+      <header class="section-header">
+        <h3>About Me</h3>
+        <p>I am a student at Penn State who is majoring in Information Sciences and Technology with a minor in Economics
+          and Communications. I am currently enrolled in a Penn LPS coding bootcamp full-time. </p>
+      </header>
+
+      <div class="row about-cols">
+
+        <div class="col-md-4 wow fadeInUp">
+          <div class="about-col">
+            <div class="img">
+              <img src="img/about-mission.jpg" alt="" class="img-fluid">
+              <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+            </div>
+            <h2 class="title"><a href="#">My aim</a></h2>
+            <p>
+              I want to find a tech-based job in well known company upon graduating in Fall 2020 with my knowledge in
+              Coding and Economics.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="about-col">
+            <div class="img">
+              <img src="img/about-plan.jpg" alt="" class="img-fluid">
+              <div class="icon"><i class="ion-ios-list-outline"></i></div>
+            </div>
+            <h2 class="title"><a href="#">How</a></h2>
+            <p>
+              Using all the projects that I have worked on through college displayed on this website as a protfolio of
+              my experience in this field.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="about-col">
+            <div class="img">
+              <img src="img/about-vision.jpg" alt="" class="img-fluid">
+              <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+            </div>
+            <h2 class="title"><a href="#">End vision</a></h2>
+            <p>
+              Being successfully employed in a job of my liking and being able to use all the skills I have obtain over
+              time.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    </section>
+
+    <!-- still working on this section -->
+
+    <!-- <section id="skills">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>My skill set</h3>
+          <p>Here is a presentation of all the skills I have obtained over time</p>
+        </header>
+
+        <div class="skills-content">
+
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">HTML <i class="val">100%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">CSS <i class="val">90%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">JavaScript <i class="val">75%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">jquery <i class="val">75%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">Java <i class="val">90%</i></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+              aria-valuemax="100">
+              <span class="skill">Photoshop <i class="val">40%</i></span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section> -->
+
+    <section id="portfolio" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="section-title">Our Portfolio</h3>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-card">Web</li>
+              <li data-filter=".filter-web">Design</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/Screenshot 2019-07-22 at 7.19.21 PM.png" class="img-fluid" alt="">
+                <a href="https://saakshig12.github.io/Word-Guess-Game/" data-lightbox="portfolio" data-title="App 1" class="link-preview"
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+              <div class="portfolio-info">
+                <h4><a href="#">Word Guess Game</a></h4>
+                <p>Web</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/Screenshot 2019-07-19 at 12.04.30 PM.png" class="img-fluid" alt="">
+                <a href="https://saakshig12.github.io/triviagame1/" class="link-preview" data-lightbox="portfolio" data-title="Web 3"
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Trivia Game</a></h4>
+                <p>Web</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/Screenshot 2019-07-22 at 7.21.07 PM.png" class="img-fluid" alt="">
+                <a href="https://saakshig12.github.io/Train-Scheduler/" class="link-preview" data-lightbox="portfolio" data-title="App 2"
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Train-Scheduler</a></h4>
+                <p>Web</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/Screenshot 2019-07-22 at 7.22.21 PM.png" class="img-fluid" alt="">
+                <a href="https://nmarcionese.github.io/NY_Times_Article_Search/" class="link-preview" data-lightbox="portfolio" data-title="Card 2"
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">NY Times Aricle Search</a></h4>
+                <p>Web</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/Screenshot 2019-07-22 at 7.23.35 PM.png" class="img-fluid" alt="">
+                <a href="https://dbeccaria826.github.io/project-1-app/" class="link-preview" data-lightbox="portfolio" data-title="Web 2"
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Write Haven (writer's blog)</a></h4>
+                <p>Web</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/Screenshot 2019-07-22 at 7.24.44 PM.png" class="img-fluid" alt="">
+                <a href="https://saakshig12.github.io/unit-4-game/" class="link-preview" data-lightbox="portfolio" data-title="App 3"
+                  title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="#">Crystal Collector Game</a></h4>
+                <p>Web</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+
+    <section id="contact" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <div class="section-header">
+          <h3>Contact Me</h3>
+          <p>Please contact me here for more infomation.</p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Address</h3>
+              <address>601 Vairo Blvd, State College, PA 18603 USA</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+155895548855">+1 240 705 3790</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:info@example.com">saakshig12@gmail.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                  data-rule="minlen:4" data-msg="Please fill this section" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                  data-rule="email" data-msg="Please fill this section" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                data-rule="minlen:4" data-msg="Please fill this section" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required"
+                data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">Github</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#">LinkedIn</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Me</h4>
+            <p>
+              601 Vairo Blvd <br>
+              State College, PA 16803<br>
+              United States <br>
+              <strong>Phone:</strong> +1 240 705 3790<br>
+              <strong>Email:</strong> saakshig12@gmail.com <br>
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong>@Saakshi Gundecha</strong>
+        </div>
+      </div>
+  </footer>
+
+
 
 </body>
+
 </html>
